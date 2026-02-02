@@ -1,0 +1,16 @@
+const yesBtn = document.getElementById("yesBtn");
+const noBtn = document.getElementById("noBtn");
+const modal = document.getElementById("noModal");
+const backBtn = document.getElementById("backBtn");
+
+yesBtn.addEventListener("click", () => {
+  window.location.href = "https://www.youtube.com/results?search_query=humsafar";
+});
+
+noBtn.addEventListener("click", () => {
+  modal.style.display = "block";
+});
+
+backBtn.addEventListener("click", () => {
+  modal.style.display = "none";
+});
