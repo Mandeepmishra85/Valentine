@@ -4,7 +4,7 @@ const modal = document.getElementById("noModal");
 const backBtn = document.getElementById("backBtn");
 
 yesBtn.addEventListener("click", () => {
-  window.location.href = "https://www.youtube.com/results?search_query=humsafar";
+  window.location.href = "https://www.youtube.com/watch?v=D9DiMnlpFK8&list=RDD9DiMnlpFK8&start_radio=1";
 });
 
 noBtn.addEventListener("click", () => {
